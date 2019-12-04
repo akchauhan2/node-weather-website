@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/assets/bootstrap-4.3.1-dist/css/bootstrap.css">
+    <script>
+        setTimeout(a, 4000)
+        function a() {
+            window.location.reload()
+        }
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30"
+                    class="d-inline-block align-top" alt=" "> {{title}}
+            </a>
+            <div class="navbar-brand">
+                <a class="btn btn-outline-warning" href="/">Home</a>
+                <a class="btn btn-outline-warning" href="/help">Help</a>
+                <a class="btn btn-outline-warning" href="/weather">Weather</a>
+
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="border-bottom pb-2">{{title}}: {{msg}}</h1>
+            {{#if subMsg}}
+            <p>{{subMsg}}</p>
+            {{/if}}
+        </div>
+    </div>
+</body>
+
+</html>
