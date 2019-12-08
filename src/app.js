@@ -92,19 +92,15 @@ app.get('/help', (req, res) => {
         name: "Ajay Chauhan",
         background: "https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
         para: {
-            p1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus distinctio voluptates tempora aut, magni quae necessitatibus tenetur temporibus repellat aspernatur totam, nihil deserunt quo possimus atque, sapiente dignissimos voluptas! Rem!",
-            p2: "Documentation and examples for Bootstrap’s powerful, responsive navigation header, the navbar. Includes support for branding, navigation, and more, including support for our collapse plugin.",
+            p1: "Hi!",
+            p2: "Documentation and examples will be available later.",
         },
         ul: {
             head: "            How it works",
-            span: "Here’ s what you need to know before getting started with the navbar:",
+            span: "Here’ s what you need to know before getting started with this weather app:",
             list: {
-                li1: "Navbars require a wrapping.navbar with.navbar - expand {-sm | -md | -lg | -xl }            for responsive collapsing and color scheme classes.            ",
-                li2: "Navbars and their contents are fluid by            default.Use optional containers to limit their horizontal width.            ",
-                li3: "Use our spacing and flex utility classes            for controlling spacing and alignment within navbars.",
-                li4: "Navbars are responsive by            default,            but you can easily modify them to change that.Responsive behavior depends on our Collapse JavaScript plugin.",
-                li5: " Navbars are hidden by            default when printing.Force them to be printed by adding.d - print to the.navbar.See the display utility class.",
-                li6: "Ensure accessibility by using a < nav > element or,            if using a more generic element such as a < div > ,           add a role = 'navigation'            to every navbar to explicitly identify it as a landmark region            for users of assistive technologies.            ",
+                li1: "Your city",
+                li2: "More help will be here soon",
             }
         },
 
@@ -119,15 +115,9 @@ app.get('/help', (req, res) => {
                 alt: "Globe Img",
             },
             head: "Supported content",
-            span: "Navbars come with built-in support for a handful of sub-components. Choose from the following as needed:",
+            span: "",
             list: {
-                li1: ".navbar-brand for your company, product, or project name.",
-                li2: ".navbar-nav for a full-height and lightweight navigation (including support for dropdowns).",
-                li3: ".navbar-toggler for use with our collapse plugin and other navigation toggling behaviors.",
-                li4: ".form-inline for any form controls and actions.",
-                li5: ".navbar-text for adding vertically centered strings of text.",
-                li6: ".collapse.navbar-collapse for grouping and hiding navbar contents by a parent breakpoint.",
-                li7: "Here’s an example of all the sub-components included in a responsive light-themed navbar that automatically collapses at the lg (large) breakpoint."
+                li1: ".",
 
             }
         }
